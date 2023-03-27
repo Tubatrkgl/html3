@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+    <h1>Techproed Survey Form</h1>
+    <p>Thank you for taking the time to help us improve the platform</p>
+    <table>
+        <label for="name">Name</label><br>
+        <input type="text" required name="name" id="name" placeholder="Enter Your Name"><br>
+
+        <label for="surname">Surname</label><br>
+        <input type="text" required name="surname" id="surname" placeholder="Enter Your Surname"><br>
+
+        <label for="email">Email</label><br>
+        <input type="text" required name="email" id="email" placeholder="html@techproed.com">
+    </table>
+    <p>Which option best describes your current role?</p>
+    <select>
+        <option disabled selected placholder="Select A Role" value="">Select A Role</option>
+        <option value="student">Student</option>
+        <option value="graduade">Graduade</option>
+    </select>
+    <p>Would you recommend Techproeducation to a friend?</p>
+
+    <input type="radio" name="yanıt1" id="cevap1" >
+    <label for="cevap1">Definetely,Yes</label>
+
+    <input type="radio" name="yanıt2" id="cevap2" >
+    <label for="cevap2">Maybe</label>
+
+    <input type="radio" name="yanıt3" id="cevap3" >
+    <label for="cevap3">Not Sure</label>
+
+    <input type="radio" name="yanıt4" id="cevap4" >
+    <label for="cevap4">Definetely, No</label>
+
+
+    <p>If you were to take another course, which course would you choose?</p>
+    <input type="checkbox" name="" id="">
+    <label for="">Java Developer</label>
+
+    <input type="checkbox" name="" id="">
+    <label for="">Mobil Developer</label>
+
+    <input type="checkbox" name="" id="">
+    <label for="">Data Science</label>
+
+    <p>Any comments or suggestions?</p>
+    <textarea name="" id="" cols="30" rows="10"></textarea><br><br>
+    <input type="submit" value="Submit">
+
+</form>
+
+</body>
+
+</html>
